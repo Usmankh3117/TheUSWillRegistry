@@ -1,6 +1,4 @@
-body {
-    font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lucida Grande,Lucida Sans Unicode,Tahoma,sans-serif !important;
-}
+
 
 .header-section {
     /* position:relative; */
@@ -8,7 +6,7 @@ body {
 .icondiv {
     position:relative;
 }
-
+ 
 .header-top-part {
     background-color: #033168;
     padding: 3px;
