@@ -378,7 +378,7 @@
         width: 22% !important;
         margin: 15px;
     }
-    ..will-icon {
+    .will-icon {
         font-size: 20px !important;
     }
     .witnesa-page-form > span {
@@ -566,6 +566,9 @@
     .faq-div {
         width: 100% !important;
     }
+    .search-menu {
+        font-size: 24px !important;
+    }
 }
 
 /* Small Device = 320px */
@@ -577,5 +580,8 @@
     }
     .faq-div {
         width: 100% !important;
+    }
+    .search-menu {
+        font-size: 14px !important;
     }
 }
