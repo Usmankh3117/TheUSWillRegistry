@@ -89,13 +89,15 @@
 	font-size: 17px;
 }
 .create-one-account > span > a {
-	color: #00a44b;
+	color: #f85656;
 	text-decoration: none;
 }
 .logo-img {
 	width: 100%;
 }
-
+.red {
+    color: #f85656;
+}
 
 .or-outer-div {
     border-bottom: 2px solid #d1caca;
