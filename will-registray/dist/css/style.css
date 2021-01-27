@@ -49,8 +49,14 @@
 .mg-top-20 {
     margin-top: 20px;
 }
+.mg-top-21 {
+    margin-top: 21px;
+}
 .mg-top-25 {
     margin-top: 25px;
+}
+.mg-top-28 {
+    margin-top: 28px;
 }
 .mg-top-30 {
     margin-top: 30px;
@@ -281,8 +287,19 @@
 .footer-store-logo > img {
     width: 100%;
 }
+.footer-store-logo1 {
+    background-color: #2a2a2c !important;
+}
+
+.footer-store-logo1 > img {
+    width: 50%;
+    border-radius: 5px;
+}
 .footer-list-div {
     margin-top: 8%;
+}
+.pad-right-15 {
+    padding-right: 15px;
 }
 
 .footer-heading {
@@ -318,12 +335,15 @@
     font-size: 20px;
 }
 .footer-icon-signin {
-    background-color: #fff !important;
-    color: #242424 !important;
+    background-color: #2a2a2c !important;
+    color: #fff !important;
 }
-.green {
-    color: #4faa43 !important;
+.footer-icon-signin1 {
+    background-color: #2a2a2c !important;
+    color: #fff !important;
+    margin-top: 5px;
 }
+
 .footer-icon-signin > i {
     font-size: 20px;
 }
@@ -337,14 +357,45 @@
     border: none;
     height: 10px;
 }
+.footer-submit-btn1 {
+    font-size: 20px;
+    position: absolute;
+    top: 6px;
+    right: 7px;
+    color: #1e1f26;
+    background-color: white;
+    border: none;
+    height: 10px;
+}
 .footer-form {
     margin-top: -5px !important;
 }
 .footer-form > form > input {
     color: black;
 }
+.footer1 {
+    background: #2a2a2c;
+    padding: 10px;
+}
+.list-group1 {
+    display: flex;
+    border-radius: .25rem;
+    padding-left: 0;
+    /* margin-bottom: 20px; */
+}
+.list-group-item1 {
+    position: relative;
+    display: block;
+    /* padding: 0px 10px; */
+}
+.list-group-item1:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
 
-
+.bold {
+    font-weight: bold;
+}
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
