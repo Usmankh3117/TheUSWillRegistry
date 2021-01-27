@@ -49,8 +49,14 @@
 .mg-top-20 {
     margin-top: 20px;
 }
+.mg-top-21 {
+    margin-top: 21px;
+}
 .mg-top-25 {
     margin-top: 25px;
+}
+.mg-top-28 {
+    margin-top: 28px;
 }
 .mg-top-30 {
     margin-top: 30px;
@@ -287,6 +293,7 @@
 
 .footer-store-logo1 > img {
     width: 50%;
+    border-radius: 5px;
 }
 .footer-list-div {
     margin-top: 8%;
@@ -331,9 +338,12 @@
     background-color: #2a2a2c !important;
     color: #fff !important;
 }
-.green {
-    color: #4faa43 !important;
+.footer-icon-signin1 {
+    background-color: #2a2a2c !important;
+    color: #fff !important;
+    margin-top: 5px;
 }
+
 .footer-icon-signin > i {
     font-size: 20px;
 }
@@ -342,6 +352,16 @@
     position: absolute;
     top: 11px;
     right: 24px;
+    color: #1e1f26;
+    background-color: white;
+    border: none;
+    height: 10px;
+}
+.footer-submit-btn1 {
+    font-size: 20px;
+    position: absolute;
+    top: 6px;
+    right: 7px;
     color: #1e1f26;
     background-color: white;
     border: none;
@@ -373,6 +393,9 @@
     border-top-right-radius: 4px;
 }
 
+.bold {
+    font-weight: bold;
+}
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
