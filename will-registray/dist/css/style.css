@@ -61,6 +61,15 @@
 .mg-top-30 {
     margin-top: 30px;
 }
+.mg-top-50 {
+    margin-top: 50px;
+}
+.mg-top-100 {
+    margin-top: 100px;
+}
+.mg-top-extra {
+    margin-top: 34px;
+}
 /* -----------------
     header
  ------------------*/
@@ -502,6 +511,25 @@
         top: 95%;
         right: 17% !important;
     }
+
+    .mg-top-top-extra {
+        margin-top: 69px !important;
+    }
+    .mg-top-bottom-extra {
+        margin-top: 111px !important;
+    }
+    .mg-top-top-extra-reset {
+        margin-top: 33px !important;
+    }
+    .mg-top-bottom-extra-reset {
+        margin-top: 31px !important;
+    }
+    .mg-top-top-extra-verify {
+        margin-top: 155px !important;
+    }
+    .mg-top-bottom-extra-verify {
+        margin-top: 158px !important;
+    }
 }
 
 /* Tablet Device = 768px */
@@ -516,8 +544,8 @@
     }
     
     .logo-img {
-        width: 70%;
-        padding: 12px;
+        width: 70% !important;
+        padding: 12px !important;
     }
     .will-div {
         box-shadow: 0px 0px 10px #ececec;
@@ -561,6 +589,41 @@
     .faq-div {
         width: 100% !important;
     }
+    .mg-top-top-extra {
+        margin-top: 25px !important;
+    }
+    .mg-top-bottom-extra {
+        margin-top: 63px !important;
+    }
+    .mg-top-top-extra-reset {
+        margin-top: 0px !important;
+    }
+    .mg-top-bottom-extra-reset {
+        margin-top: 12px !important;
+    }
+    .form-heading > h2 {
+        font-size: 30px !important;   
+    }
+    .form-heading > p {
+        font-size: 22px !important;   
+    }
+    .login-form > form > .input-group > .form-control {
+        font-size: 18px !important;
+        margin:0px !important;
+    }
+    .login-form > form > .input-group {
+       margin-top: 10px;
+    }
+    .login-form > form > .input-group > span {
+        font-size: 20px !important;
+        padding: 10px 22px !important;
+    }
+    .mg-top-top-extra-verify {
+        margin-top: 100px !important;
+    }
+    .mg-top-bottom-extra-verify {
+        margin-top: 101px !important;
+    }
 }
 
 /* Wide Mobile = 480px */
@@ -574,7 +637,7 @@
         z-index: 1;
     }
     .logo-img {
-        width: 44%;
+        width: 44% !important;
         padding: 12px;
     }
     .list-group {
@@ -620,6 +683,24 @@
     .search-menu {
         font-size: 24px !important;
     }
+    .mg-top-top-extra {
+        margin-top: 13px !important;
+    }
+    .mg-top-bottom-extra {
+        margin-top: 54px !important;
+    }
+    .mg-top-top-extra-reset {
+        margin-top: 0px !important;
+    }
+    .mg-top-bottom-extra-reset {
+        margin-top: 20px !important;
+    }
+    .mg-top-top-extra-verify {
+        margin-top: 100px !important;
+    }
+    .mg-top-bottom-extra-verify {
+        margin-top: 100px !important;
+    }
 }
 
 /* Small Device = 320px */
@@ -629,10 +710,31 @@
         width: 100% !important;
         margin-top: 10% !important;
     }
+    .logo-img {
+        width: 50% !important;
+    }
     .faq-div {
         width: 100% !important;
     }
     .search-menu {
         font-size: 14px !important;
+    }
+    .mg-top-top-extra {
+        margin-top: 0px !important;
+    }
+    .mg-top-bottom-extra {
+        margin-top: 28px;
+    }
+    .mg-top-top-extra-reset {
+        margin-top: 0px !important;
+    }
+    .mg-top-bottom-extra-reset {
+        margin-top: 20px !important;
+    }
+    .mg-top-top-extra-verify {
+        margin-top: 0px !important;
+    }
+    .mg-top-bottom-extra-verify {
+        margin-top: 15px !important;
     }
 }
