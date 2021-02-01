@@ -723,7 +723,7 @@
         margin-top: 100px !important;
     }
     .footer-logo {
-        width: 90%;
+        width: 90% !important;
     }
     
     
@@ -764,6 +764,6 @@
         margin-top: 15px !important;
     }
     .footer-logo {
-        width: 25%;
+        width: 25% !important;
     }
 }
