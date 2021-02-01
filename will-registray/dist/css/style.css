@@ -402,8 +402,18 @@
     border-top-right-radius: 4px;
 }
 
+.margin-top-10 {
+    margin-top: 10%;
+}
+
 .bold {
     font-weight: bold;
+}
+.blue {
+    color: #033168;
+}
+.center {
+    text-align: center;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
@@ -443,7 +453,7 @@
     }
     .witnesa-page-form > span {
         background: #00387b;
-        padding: 25px 5px 28px 0px !important;
+        padding: 24px 5px 29px 0px !important;
         font-size: 19px !important;
         color: white;
         margin-left: -5px;
@@ -451,18 +461,18 @@
     }
     .self-affidevit-form > span {
         background: #d81212;
-        padding: 26px 5px 28px 0px !important;
+        padding: 25px 5px 30px 0px !important;
         font-size: 19px !important;
         color: white;
         margin-left: -5px;
         font-weight: 500;
         width: 100%;
     }
+    .login-form-div {
+       padding-bottom: 8px;
+    }
 }
 
-.margin-top-10 {
-    margin-top: 10%;
-}
 
 /* Medium Device = 1200px */
 
@@ -624,6 +634,17 @@
     .mg-top-bottom-extra-verify {
         margin-top: 101px !important;
     }
+    .profile-section-div > div > span {
+        font-size: 10px !important;
+    }
+    .profile-section-div > div > img {
+        width: 30px !important;
+    }
+    .profile-section-div {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        height: 50px !important;
+    }
 }
 
 /* Wide Mobile = 480px */
@@ -701,6 +722,11 @@
     .mg-top-bottom-extra-verify {
         margin-top: 100px !important;
     }
+    .footer-logo {
+        width: 90%;
+    }
+    
+    
 }
 
 /* Small Device = 320px */
@@ -736,5 +762,8 @@
     }
     .mg-top-bottom-extra-verify {
         margin-top: 15px !important;
+    }
+    .footer-logo {
+        width: 25%;
     }
 }
