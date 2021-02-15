@@ -1,8 +1,5 @@
 
 
-.header-section {
-    /* position:relative; */
-}
 .icondiv {
     position:relative;
 }
@@ -874,9 +871,6 @@
     }
     .last-will-section > .make-your-will > img {
        width: 100%;
-    }
-    .footer-store-logo > img {
-        /* width: 10% !important; */
     }
     .footer__about > .list-group {
         display: flex !important;
