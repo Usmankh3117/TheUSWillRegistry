@@ -583,13 +583,70 @@
     .mg-top-bottom-extra-verify {
         margin-top: 158px !important;
     }
+    .top-menu {
+        font-size: 14px !important;
+    }
 }
 
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .top-menu {
+        font-size: 9px;
+    }
     .header-lower-part {
         height: 48px !important;
+    }
+    .lower-header .list-group {
+        margin-top: 0px !important;
+    }
+    .will-details > .detail-heading {
+        font-size: 13px !important;
+    }
+    .will-details > .detail-p {
+        font-size: 8px !important;
+        line-height: 14px !important;
+    }
+    .will-icon {
+        right: 4% !important;
+        top: 27% !important;
+        padding: 2% 4% 1% 4% !important;
+        font-size: 16px !important;
+    }
+    .will-details > .learn-more > a {
+        font-size: 10px !important;
+    }
+    .will-details > .learn-more {
+        padding: 3px 8px !important;
+    }
+    .will-details > .learn-more > i {
+        padding: 6px !important;
+        margin-top: -3px !important;
+        margin-right: -7px !important;
+    }
+    .last-will > .heading-border > .heading {
+        font-size: 17px !important;
+    }
+    .last-will > p {
+        font-size: 12px !important;
+    }
+    .mini-heading {
+        font-size: 16px !important;
+    }
+    .mini-para {
+        font-size: 11px !important;
+    }
+    .info-heading {
+        font-size: 11px !important;
+    }
+    .Nationwide {
+        font-size: 18px !important;
+    }
+    .info-detail {
+        font-size: 14px !important;
+    }
+    .info-mini-detail, .info-mini-detail-b {
+        font-size: 11px;
     }
     .left-outer-form-div h4 {
         margin-top: 24px;
@@ -663,7 +720,16 @@
         margin-top: 0% !important;
     }
     .last-will-section > .make-your-will {
-        right: 4% !important;
+        right: -8% !important;
+    }
+    .last-will-section > .make-your-will > img {
+        width: 63% !important;
+    }
+    .last-will-section > .make-your-will > button {
+        right: 42.5% !important;
+        top: 32% !important;
+        padding: 5px 5px 5px 5px !important;
+        font-size: 13px !important;
     }
     .last-section > .make-will {
         right: 4% !important;
@@ -719,6 +785,22 @@
         margin-top: 0px !important;
         margin-bottom: 0px !important;
         height: 50px !important;
+    }
+    .footer__about__logo > img {
+        width: 55%;
+    }
+    .footer__widget p {
+        font-size: 10px !important;
+    }
+    .footer__widget h5 {
+        margin-bottom: 0px !important;
+    }
+    .footer__widget ul li a {
+        font-size: 10px !important;
+        line-height: 15px !important;
+    }
+    .footer-heading {
+     padding-bottom: 0px !important;
     }
 }
 
@@ -879,9 +961,62 @@
 
 @media only screen and (max-width: 350px) {
     .header-lower-part {
-        height: 27px !important;
+        /* height: 27px !important; */
         margin-top: 13px !important;
         font-size: 15px !important;
+    }
+    .list-group-item { 
+        padding: 0px !important;
+        font-size: 13px !important;
+    }
+    .top-menu {
+        font-size: 12px !important;
+    }    
+    .witnesa-page-form img {
+        width: 30% !important;
+    }
+    .witnesa-page-form > span {
+        padding: 15px 11px 17px 11px !important;
+        font-size: 16px !important;
+    }
+    .self-affidevit-form img {
+        width: 30% !important;
+    }
+    .self-affidevit-form > span {
+        padding: 16px 11px 18px 11px !important;
+        font-size: 16px !important;
+    }
+    .last-will > .heading-border > .heading {
+        font-size: 14px !important;
+    }
+    .last-will > p {
+        font-size: 11px !important;
+    }   
+    .info-heading {
+        font-size: 14px !important;
+    }
+    .Nationwide {
+        font-size: 15px !important;
+    }
+    .info-detail {
+        font-size: 16px !important;
+    }
+    .info-mini-detail, .info-mini-detail-b {
+        font-size: 12px !important;
+    }    
+    .last-will-section > .make-your-will > img {
+        width: 90% !important;
+    }
+    .last-will-section > .make-your-will {
+        top: 99% !important;
+        right: 0% !important;
+        left: 8% !important;
+    }
+    .last-will-section > .make-your-will > button {
+        right: 18% !important;
+        top: 34% !important;
+        padding: 4px 5px 1px 5px !important;
+        font-size: 7px !important;
     }
     .form_top_controls ul li {
         font-size: 9px !important;
@@ -901,5 +1036,28 @@
     }
     .footer-store-logo > img {
         width: 78% !important;
+    }
+    .footer__about__logo > img {
+        width: 40%;
+    }
+    .footer__widget h5 {
+        margin-bottom: 0px !important;
+    }
+    .footer-heading { 
+        padding-bottom: 0px !important;
+    }
+    .footer__widget ul li a {
+        line-height: 20px !important;
+        font-size: 12px;
+    }
+    .footer__widget p {
+        font-size: 9px !important;
+    }
+    .footer__about ul li {
+        font-size: 14px !important;
+        line-height: 3px !important;
+    }
+    .copyrights > p {
+        font-size: 6px !important;
     }
 }
