@@ -420,6 +420,15 @@
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1441px) {
+    .pd-left-0 {
+        padding-left: 0px !important;
+    }
+    .sidebar-countdown p {
+        margin: 20px 0px 0px 0px !important;
+    }
+    .form-btn-div {
+        margin-top: 6% !important;
+    }
     .last-will-section > .make-your-will {
        right: 37% !important;
     }
@@ -438,10 +447,19 @@
         width: 47% !important;
     }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px)and (max-width: 1440px) {
 	/* .container {
 		max-width: 1170px;
     } */
+    .pd-left-0 {
+        padding-left: 0px !important;
+    }
+    .sidebar-countdown p {
+        margin: 23px 0px 0px 0px !important;
+    }
+    .form-btn-div {
+        margin-top: 10% !important;
+    }
     .will-div {
         box-shadow: 0px 0px 10px #ececec;
         border-radius: 5px;
@@ -478,6 +496,30 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .pd-left-0 {
+        padding-left: 0px !important;
+    }
+    .left-outer-form-div h4 {
+        margin-top: 24px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .form_top_controls ul li {
+        font-size: 16px !important;
+    }
+    .form-input-field {
+        padding: 5px !important;
+    }
+    #Basic {
+        padding: 23px 0px 0px 32px !important;
+    }
+    .sidebar-countdown p {
+        margin: 12px 0px 0px 0px !important;
+    }
+    .left-outer-form-div {
+        padding: 15px 40px 38px 24px !important;
+        width: 95% !important;
+    }
     .header-right-img {
         position: absolute;
         right: 2%;
@@ -546,6 +588,38 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-lower-part {
+        height: 48px !important;
+    }
+    .left-outer-form-div h4 {
+        margin-top: 24px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .form_top_controls ul li {
+        font-size: 15px !important;
+        margin-right: 3% !important; 
+    }
+    .form-input-field {
+        padding: 5px !important;
+    }
+    #Basic {
+        padding: 23px 0px 0px 32px !important;
+    }
+    .sidebar-countdown p {
+        margin: 12px 0px 0px 0px !important;
+    }
+    .left-outer-form-div {
+        padding: 1px 31px 24px 3px !important;
+        width: 88% !important;
+    }
+    .form-btn-div {
+        margin-top: 17% !important;
+    }
+    .right-outer-form-div {
+        width: 138% !important;
+        margin-left: -40% !important;
+    }
     .header-right-img {
         position: absolute;
         right: 4%;
@@ -733,6 +807,40 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+    .left-outer-form-div {
+        padding: 1px 1px 1px 6px !important;
+        width: 100% !important;
+    }
+    .left-outer-form-div h4 {
+        width: 100% !important;
+    }
+    .form_top_controls ul li {
+        font-size: 12px !important;
+        margin-right: 2px !important;
+    }
+    #Basic {
+        padding: 24px 0px 0px 38px !important;
+    }
+    .form-btn-div .exit-btn, .next-btn {
+        width: 32% !important;
+        font-size: 12px !important;
+    }
+    .form-btn-div {
+        margin-top: 24% !important;
+    }
+    .form-input-field {
+        margin-bottom: 10px !important;
+    }
+    .right-outer-form-div {
+        margin-left: 0% !important;
+        width: 100% !important;
+    }
+    .sidebar-countdown {
+        left: 1px !important;
+    }
+    .form_top_controls {
+        margin-left: 0px !important;
+    }
     .c-details {
         width: 100% !important;
         margin-top: 10% !important;
@@ -766,5 +874,32 @@
     }
     .footer-logo {
         width: 25% !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .header-lower-part {
+        height: 27px !important;
+        margin-top: 13px !important;
+        font-size: 15px !important;
+    }
+    .form_top_controls ul li {
+        font-size: 9px !important;
+        margin-right: 2px !important;
+    }
+    .form-input-field {
+        padding: 7px !important;
+        font-size: 13px !important;
+    }
+    .sidebar-countdown p {
+        margin: 20px 0px 0px 0px !important;
+    }
+    .left-outer-form-div h4 {
+        margin-top: 15px !important;
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+    .footer-store-logo > img {
+        width: 78% !important;
     }
 }
