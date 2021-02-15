@@ -591,6 +591,28 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .w-heading > h1 {
+        font-size: 30px !important;
+    }
+    .w-mini-heading > h1 {
+        font-size: 26px !important;
+    }
+    .w-mini-detail > p {
+        font-size: 18px !important;
+    }
+    .left-side-text {
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+    .right-side-text {
+        font-size: 22px !important;
+        line-height: 28px !important;
+    }
+    .right-side-with-icon {
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+
     .top-menu {
         font-size: 9px;
     }
@@ -714,7 +736,7 @@
        width: 100%;
     }
     .last-section > .make-will > img {
-       width: 100%;
+       width: 77%;
     }
     .margin-top-10 {
         margin-top: 0% !important;
@@ -732,7 +754,13 @@
         font-size: 13px !important;
     }
     .last-section > .make-will {
-        right: 4% !important;
+        right: -8% !important;
+    }
+    .make-will > button {
+        right: 31% !important;
+        top: 35% !important;
+        padding: 5px 8px 5px 8px !important;
+        font-size: 13px !important;
     }
     .c-details {
         margin: 5px !important;
@@ -807,6 +835,7 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+    
     .header-right-img {
         position: absolute;
         right: 4%;
@@ -889,6 +918,42 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+    .w-heading > h1 {
+        font-size: 18px !important;
+    }
+    .w-mini-heading > h1 {
+        font-size: 17px !important;
+    }
+    .w-mini-detail > p {
+        font-size: 14px !important;
+    }
+    .left-side-text {
+        font-size: 13px !important;
+        line-height: 18px !important;
+    }
+    .right-side-text {
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    .w-icon-div .w-icon {
+        right: 40% !important;
+        top: -55% !important;
+        font-size: 20px !important; 
+        padding: 4px 8px 4px 9px !important;
+    }
+    .left-side-with-icon {
+        font-size: 18px !important;
+    }
+    .right-side-with-icon {
+        font-size: 13px !important;
+        line-height: 12px !important;
+    }
+    .make-will > button {
+        right: 11% !important;
+        top: 39% !important;
+        padding: 0px 4px 2px 4px !important;
+        font-size: 10px !important;
+    }
     .left-outer-form-div {
         padding: 1px 1px 1px 6px !important;
         width: 100% !important;
@@ -958,8 +1023,83 @@
         width: 25% !important;
     }
 }
+@media only screen and (max-width: 375) {
+    .w-heading > h1 {
+        font-size: 18px !important;
+    }
+    .w-mini-heading > h1 {
+        font-size: 17px !important;
+    }
+    .w-mini-detail > p {
+        font-size: 14px !important;
+    }
+    .left-side-text {
+        font-size: 13px !important;
+        line-height: 18px !important;
+    }
+    .right-side-text {
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    .w-icon-div .w-icon {
+        right: 40% !important;
+        top: -55% !important;
+        font-size: 20px !important; 
+        padding: 4px 8px 4px 9px !important;
+    }
+    .left-side-with-icon {
+        font-size: 18px !important;
+    }
+    .right-side-with-icon {
+        font-size: 13px !important;
+        line-height: 12px !important;
+    }
+    .make-will > button {
+        right: 11% !important;
+        top: 39% !important;
+        padding: 0px 4px 2px 4px !important;
+        font-size: 8px !important;
+    }
 
+}
 @media only screen and (max-width: 350px) {
+    .w-heading > h1 {
+        font-size: 18px !important;
+    }
+    .w-mini-heading > h1 {
+        font-size: 17px !important;
+    }
+    .w-mini-detail > p {
+        font-size: 14px !important;
+    }
+    .left-side-text {
+        font-size: 13px !important;
+        line-height: 18px !important;
+    }
+    .right-side-text {
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    .w-icon-div .w-icon {
+        right: 40% !important;
+        top: -55% !important;
+        font-size: 20px !important; 
+        padding: 4px 8px 4px 9px !important;
+    }
+    .left-side-with-icon {
+        font-size: 18px !important;
+    }
+    .right-side-with-icon {
+        font-size: 13px !important;
+        line-height: 12px !important;
+    }
+    .make-will > button {
+        right: 11% !important;
+        top: 39% !important;
+        padding: 0px 4px 2px 4px !important;
+        font-size: 8px !important;
+    }
+    
     .header-lower-part {
         /* height: 27px !important; */
         margin-top: 13px !important;
