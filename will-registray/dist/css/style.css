@@ -455,6 +455,9 @@
     }
 }
 @media only screen and (min-width: 1200px)and (max-width: 1440px) {
+    .mg-top-15-si {
+        margin-top: 11px !important;
+    }
 	/* .container {
 		max-width: 1170px;
     } */
@@ -506,6 +509,16 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .submit-btn > .submit {
+        font-size: 17px !important;
+        padding: 0px 14px !important;
+    }    
+    .mg-top-30-si {
+        margin-top: 9px !important;
+    }
+    .mg-top-15-si {
+        display: none;
+    }
     .profile-section-div > div > span { 
         font-size: 16px !important;
     }
@@ -611,8 +624,30 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mg-top-30-si-not {
+        display: none;
+    }
+    .login-form > form > .input-group {
+        margin-top: 8px !important;
+    }
+    .login-form > form > .input-group > .form-control {
+        padding: 8px !important;
+    }
+    .mg-top-30-si {
+        margin-top: 8px !important;
+    }
+    .mg-top-25-si {
+        display: none;
+    }
+    .or {
+        padding: 0px !important;
+        font-size: 14px !important;
+    }
+    .create-one-account {
+        font-size: 14px !important;
+    }
     .search-menu {
-        font-size: 28px !important;
+        font-size: 25px !important;
     }
     .form-control1 {
         height: 30px !important;
