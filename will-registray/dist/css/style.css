@@ -413,10 +413,20 @@
 .center {
     text-align: center;
 }
+.footer-form form input {
+    font-size: 18px;
+    padding: 5px;
+}
 
+.mg-top-25-reg {
+    margin-top: 25px;
+}    
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1441px) {
+    .submit-btn {
+        margin-top: 30px !important;
+    }
     .pd-left-0 {
         padding-left: 0px !important;
     }
@@ -448,6 +458,9 @@
 	/* .container {
 		max-width: 1170px;
     } */
+    .c-details {
+        width: 30.333333% !important;
+    }
     .pd-left-0 {
         padding-left: 0px !important;
     }
@@ -493,6 +506,16 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .profile-section-div > div > span { 
+        font-size: 16px !important;
+    }
+    .footer__widget ul li input{
+        width: 100% !important;
+    }
+    
+    .c-details {
+        width: 29.333333% !important;
+    }
     .pd-left-0 {
         padding-left: 0px !important;
     }
@@ -588,6 +611,30 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .search-menu {
+        font-size: 28px !important;
+    }
+    .form-control1 {
+        height: 30px !important;
+        padding: 8px 7px !important;
+        font-size: 10px !important;
+    }
+    .submit-btn > .submit {
+        font-size: 11px !important;
+        padding: 3px 33px 3px 33px !important;
+    }
+    .input-group1 {
+        margin: 1.2px 0px !important;
+    }
+    .mg-top-25-reg {
+        margin-top: 11px;
+    }    
+    .submit-btn {
+        margin-top: 30px !important;
+    }
+    .c-details {
+        width: 31.333333% !important;
+    }
     .w-heading > h1 {
         font-size: 30px !important;
     }
@@ -775,7 +822,7 @@
         margin-top: 0px !important;
     }
     .mg-top-bottom-extra-reset {
-        margin-top: 12px !important;
+        margin-top: 45px !important;
     }
     .form-heading > h2 {
         font-size: 30px !important;   
@@ -832,6 +879,7 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+    
     
     .header-right-img {
         position: absolute;
@@ -912,6 +960,31 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+    .login-form > form > .input-group1 > label {
+        font-size: 12px !important;
+    }
+    .login-form > form > .input-group1 > a {
+        font-size: 14px !important;
+    }
+    .create-one-account {
+        font-size: 14px !important;
+    }
+    .or {
+        padding: 0px 0px !important;
+        font-size: 14px !important;
+    }
+    .heading-section .link {
+        font-size: 15px !important;
+    }
+    .right-div .top-heading {
+        font-size: 17px !important;
+    }
+    .right-div .mini-heading {
+        font-size: 16px !important;
+    }
+    .number-right {
+        font-size: 17px !important;
+    }
     .w-heading > h1 {
         font-size: 18px !important;
     }
@@ -1017,7 +1090,36 @@
         width: 25% !important;
     }
 }
-@media only screen and (max-width: 375) {
+@media only screen and (max-width: 375px) {
+    .login-form > form > .input-group1 > label {
+        font-size: 12px !important;
+    }
+    .login-form > form > .input-group1 > a {
+        font-size: 14px !important;
+    }
+    .create-one-account {
+        font-size: 14px !important;
+    }
+    .or {
+        padding: 0px 0px !important;
+        font-size: 14px !important;
+    }
+    .heading-section .link {
+        font-size: 15px !important;
+    }
+    .right-div .top-heading {
+        font-size: 17px !important;
+    }
+    .right-div .mini-heading {
+        font-size: 16px !important;
+    }
+    .number-right {
+        font-size: 17px !important;
+    }
+    .form_top_controls ul li {
+        font-size: 10px !important;
+        margin-right: 2px !important;
+    }
     .w-heading > h1 {
         font-size: 18px !important;
     }
@@ -1057,6 +1159,67 @@
 
 }
 @media only screen and (max-width: 350px) {
+    .login-form > form > .input-group1 > label {
+        font-size: 12px !important;
+    }
+    .login-form > form > .input-group1 > a {
+        font-size: 14px !important;
+    }
+    .create-one-account {
+        font-size: 14px !important;
+    }
+    .or {
+        padding: 0px 0px !important;
+        font-size: 14px !important;
+    }
+    .heading-section .link {
+        font-size: 15px !important;
+    }
+    .search-menu {
+        font-size: 12px !important;
+    }
+    .right-div .top-heading {
+        font-size: 17px !important;
+    }
+    .right-div .mini-heading {
+        font-size: 16px !important;
+    }
+    .number-right {
+        font-size: 17px !important;
+    }
+    .profile-section-div > div > span { 
+        font-size: 18px !important;
+    }
+    .tell-us {
+        font-size: 21px !important;
+        margin-top: 21px !important;
+    }
+    .message-section > .container > .row > .details {
+        font-size: 12px !important;
+    }
+    .login-form > form > .input-group > .form-control {
+        font-size: 10px !important;
+    }
+    .submit-btn > .submit {
+        font-size: 16px !important;
+    }
+    
+    .footer-form form input {
+        font-size: 12px !important; 
+        padding: 5px !important;
+    }
+    .follow-us-on {
+        font-size: 7px !important;
+    }
+    .SUBSCRIBE-TO-OUR-NEWS-LETTER {
+        font-size: 12px !important;
+    }
+    .footer-submit-btn1 { 
+        font-size: 14px !important;
+    }    
+    .footer-icon-signin1 {
+        margin-top: 0px !important;
+    }
     .w-heading > h1 {
         font-size: 18px !important;
     }
