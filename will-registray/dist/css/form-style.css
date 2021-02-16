@@ -68,6 +68,8 @@
     border: 1px solid #c1c1c1;
     font-size: 15px;
     width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .form-btn-div {
     margin-top: 13%;
@@ -98,6 +100,39 @@
     margin-left: 10px;
 }
 .form-btn-div .next-btn i {
+    float: right;
+    margin-top: 3px;
+}
+
+.Residuary-form-btn-div {
+    margin-top: 13%;
+}
+.Residuary-form-btn-div .exit-btn {
+    float: right;
+    padding: 10px 10px 10px 10px;
+    width: 20%;
+    font-size: 15px;
+    text-align: right;
+    background-color: #ef3d3d;
+    border: 1px solid #ef3d3d;
+    color: #fff;
+}
+.Residuary-form-btn-div .exit-btn i {
+    float: left;
+    margin-top: 3px;
+}
+.Residuary-form-btn-div .next-btn {
+    float: right;
+    padding: 10px 10px 10px 10px;
+    width: 20%;
+    font-size: 15px;
+    text-align: left;
+    background-color: #033168;
+    border: 1px solid #033168;
+    color: #fff;
+    margin-left: 10px;
+}
+.Residuary-form-btn-div .next-btn i {
     float: right;
     margin-top: 3px;
 }
@@ -142,4 +177,11 @@
 
 .form_top_controls ul li:last-child {
 	margin-right: 0;
+}
+
+.enable-tab {
+    display: block;
+}
+.disable-tab {
+    display: none;
 }

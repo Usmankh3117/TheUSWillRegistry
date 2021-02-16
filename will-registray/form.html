@@ -20,6 +20,9 @@
 
   <title>Will Registray</title>
   <link rel="icon" href="./dist/assets/img/logo.png" type="image/icon type">
+  <script>
+
+  </script>
 </head>
 <body>
     <!-- header section starts -->
@@ -109,13 +112,13 @@
                     <div class="right-outer-form-div">
                         <div class="form_top_controls">
                             <ul class="">
-                                <li class="active" data-filter="*">Basic</li>
-                                <li data-filter=".Nomiees">Nomiees</li>
-                                <li data-filter=".Residuary">Residuary</li>
-                                <li data-filter=".Gifts">Gifts</li>
-                                <li data-filter=".Funeral">Funeral</li>
-                                <li data-filter=".Provisions">Provisions</li>
-                                <li data-filter=".Review">Review</li>
+                                <li class="active">Basic</li>
+                                <li >Nomiees</li>
+                                <li >Residuary</li>
+                                <li >Gifts</li>
+                                <li >Funeral</li>
+                                <li >Provisions</li>
+                                <li >Review</li>
                             </ul>
                         </div>
                         <div class="sidebar-countdown">
@@ -127,7 +130,7 @@
                             <p class="form_6">6</p>
                             <p class="form_7">7</p>
                         </div>
-                        <div id="Basic">
+                        <!-- <div id="Basic" >
                             <div class="row">
                                 <div class="col-lg-12 col-lg-12 col-sm-12">
                                     <h4 class="form-basic-details">Basic Details:</h4>
@@ -167,8 +170,187 @@
                                     
                                 </div>
                             </div>
+                        </div> -->
+                        <div id="Basic">
+                            <div class="row">
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <h4 class="form-basic-details"></h4>
+                                </div>
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <p class="form-inner-heading">1. What is legal name?</p>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4 pd-left-0">
+                                        <input type="text" name="first-name" class="form-input-field" placeholder="First Name">
+                                    </div>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4">
+                                        <input type="text" name="middle-name" class="form-input-field" placeholder="Middle Name">
+                                    </div>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4">
+                                        <input type="text" name="last-name" class="form-input-field" placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <p class="form-inner-heading">2. Specify your gender</p>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4" style="padding-left: 0px;">
+                                    <select name="gender" id="gender" class="form-input-field">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <p class="form-inner-heading">3. What is you legal birthdate</p>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4" style="padding-left: 0px;">
+                                    <select name="days" id="days" class="form-input-field">
+                                        <option value="0">Days</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                    </div>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4" style="padding-left: 0px;">
+                                        <select name="month" id="month" class="form-input-field">
+                                            <option value="0">Month</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4" style="padding-left: 0px;">
+                                        <select name="gender" id="gender" class="form-input-field">
+                                            <option value="0">Years</option>
+                                            <option value="2020">2020</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2023">2023</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                
+                                <div class="col-lg-12 col-lg-12 col-sm-12 form-btn-div">
+                                    <button class="next-btn">
+                                        NEXT
+                                        <i class="fa fa-arrow-right"></i>
+                                    </button>
+                                    <button class="exit-btn">
+                                        <i class="fa fa-arrow-left"></i>
+                                        EXIT
+                                    </button>
+                                    
+                                </div>
+                            </div>
                         </div>
-                        
+                        <div id="Nomiees" style="display: none;">
+                            <div class="row">
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <h4 class="form-basic-details"></h4>
+                                </div>
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <p class="form-inner-heading">4. What is legal address?</p>
+                                    <div class="col-lg-12 col-lg-12 col-sm-12 pd-left-0">
+                                        <input type="text" name="address-1" class="form-input-field" placeholder="Address 1">
+                                    </div>
+                                    <div class="col-lg-12 col-lg-12 col-sm-12 pd-left-0">
+                                        <input type="text" name="address-2" class="form-input-field" placeholder="Address 2">
+                                    </div>
+                                    <div class="col-lg-6 col-lg-6 col-sm-6 pd-left-0">
+                                        <input type="text" name="state" class="form-input-field" placeholder="State">
+                                    </div>
+                                    <div class="col-lg-6 col-lg-6 col-sm-6">
+                                        <input type="text" name="zip code" class="form-input-field" placeholder="Zip code">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <p class="form-inner-heading">5. What is approximate value of your assets?</p>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4" style="padding-left: 0px;">
+                                    <select name="assets" id="assets" class="form-input-field">
+                                        <option value="200-300">$200 - $300</option>
+                                        <option value="200-300">$200 - $300</option>
+                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                
+                                <div class="col-lg-12 col-lg-12 col-sm-12 Residuary-form-btn-div">
+                                    <button class="next-btn">
+                                        NEXT
+                                        <i class="fa fa-arrow-right"></i>
+                                    </button>
+                                    <button class="exit-btn">
+                                        <i class="fa fa-arrow-left"></i>
+                                        EXIT
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Residuary" style="display: none;">
+                            <div class="row">
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <h4 class="form-basic-details"></h4>
+                                </div>
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <p class="form-inner-heading">6. Are you Currently married?</p>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4 pd-left-0">
+                                        <select name="married" id="married" class="form-input-field">
+                                            <option value="yes">Yes</option>
+                                            <option value="no">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <p class="form-inner-heading">7. What is your Spouse's legal name?</p>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4" style="padding-left: 0px;">
+                                        <input type="text" name="first-name" class="form-input-field" placeholder="First Name">
+                                    </div>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4" >
+                                        <input type="text" name="middle-name" class="form-input-field" placeholder="Middle Name">
+                                    </div>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4">
+                                        <input type="text" name="last-name" class="form-input-field" placeholder="Lasr Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-lg-12 col-sm-12">
+                                    <p class="form-inner-heading">8. Do you wish to leave Bulk of your state (expect for certain special bequest) to your spouse?</p>
+                                    <div class="col-lg-4 col-lg-4 col-sm-4" style="padding-left: 0px;">
+                                        <select name="wish" id="wish" class="form-input-field">
+                                            <option value="yes">Yes</option>
+                                            <option value="no">No</option>
+                                        </select>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                
+                                <div class="col-lg-12 col-lg-12 col-sm-12 form-btn-div">
+                                    <button class="next-btn">
+                                        NEXT
+                                        <i class="fa fa-arrow-right"></i>
+                                    </button>
+                                    <button class="exit-btn">
+                                        <i class="fa fa-arrow-left"></i>
+                                        EXIT
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
                         
                     </div>
 
