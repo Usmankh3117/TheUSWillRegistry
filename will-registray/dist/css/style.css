@@ -420,7 +420,16 @@
 
 .mg-top-25-reg {
     margin-top: 25px;
-}    
+}   
+#Basic {
+    padding: 23px 0px 0px 32px !important;
+}
+#Nomiees {
+    padding: 23px 0px 0px 32px !important;
+} 
+#Residuary {
+    padding: 23px 0px 0px 32px !important;
+} 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1441px) {
@@ -434,6 +443,10 @@
         margin: 20px 0px 0px 0px !important;
     }
     .form-btn-div {
+        margin-top: 6% !important;
+    }
+
+    .Residuary-form-btn-div {
         margin-top: 6% !important;
     }
     .last-will-section > .make-your-will {
@@ -471,7 +484,11 @@
         margin: 23px 0px 0px 0px !important;
     }
     .form-btn-div {
-        margin-top: 10% !important;
+        margin-top: 3% !important;
+    }
+
+    .Residuary-form-btn-div {
+        margin-top: 1% !important;
     }
     .will-div {
         box-shadow: 0px 0px 10px #ececec;
@@ -509,6 +526,12 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .form-btn-div {
+        margin-top: 4% !important;
+    }
+    .Residuary-form-btn-div {
+        margin-top: 4% !important;
+    }
     .submit-btn > .submit {
         font-size: 17px !important;
         padding: 0px 14px !important;
@@ -546,6 +569,12 @@
     #Basic {
         padding: 23px 0px 0px 32px !important;
     }
+    #Nomiees {
+        padding: 23px 0px 0px 32px !important;
+    }
+    #Residuary {
+        padding: 23px 0px 0px 32px !important;
+    } 
     .sidebar-countdown p {
         margin: 12px 0px 0px 0px !important;
     }
@@ -764,6 +793,14 @@
     #Basic {
         padding: 23px 0px 0px 32px !important;
     }
+
+    #Nomiees {
+        padding: 23px 0px 0px 32px !important;
+    }
+
+    #Residuary {
+        padding: 23px 0px 0px 32px !important;
+    } 
     .sidebar-countdown p {
         margin: 12px 0px 0px 0px !important;
     }
@@ -772,7 +809,11 @@
         width: 88% !important;
     }
     .form-btn-div {
-        margin-top: 17% !important;
+        margin-top: 3% !important;
+    }
+
+    .Residuary-form-btn-div {
+        margin-top: 3% !important;
     }
     .right-outer-form-div {
         width: 138% !important;
@@ -1070,11 +1111,28 @@
     #Basic {
         padding: 24px 0px 0px 38px !important;
     }
+
+    #Nomiees {
+        padding: 24px 0px 0px 38px !important;
+    }
+
+    #Residuary {
+        padding: 24px 0px 0px 38px !important;
+    } 
     .form-btn-div .exit-btn, .next-btn {
         width: 32% !important;
         font-size: 12px !important;
     }
+
+    .Residuary-form-btn-div .exit-btn, .next-btn {
+        width: 32% !important;
+        font-size: 12px !important;
+    }
+    
     .form-btn-div {
+        margin-top: 24% !important;
+    }
+    .Residuary-form-btn-div {
         margin-top: 24% !important;
     }
     .form-input-field {
