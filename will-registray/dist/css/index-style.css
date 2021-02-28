@@ -17,6 +17,9 @@
     width: 22%;
     margin: 15px;
 }
+.started-img {
+    position: relative;
+}
 .landing-page-top-text {
     position: absolute;
     top: 30%;
