@@ -744,6 +744,10 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+    .last-will-section > .make-your-will > a {
+        padding: 4px 8px 5px 8px !important;
+        font-size: 11px !important;
+    }
     .landing-page-top-text {
         width: 63% !important;
         top: 10% !important;
@@ -796,5 +800,26 @@
     }
     .footer-logo {
         width: 25% !important;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .last-will-section > .make-your-will > a {
+        padding: 4px 8px 5px 8px !important;
+        font-size: 11px !important;
+    }
+    .witnesa-page-form > img {
+        width: 34% !important;
+    }
+    .witnesa-page-form > span {
+        padding: 20px 11px 25px 14px !important;
+        font-size: 20px !important;
+    }
+    .self-affidevit-form > img {
+        width: 34% !important;
+    }
+    .self-affidevit-form > span {
+        padding: 21px 11px 26px 14px !important;
+        font-size: 20px !important;
     }
 }
