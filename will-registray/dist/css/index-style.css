@@ -17,6 +17,39 @@
     width: 22%;
     margin: 15px;
 }
+.started-img {
+    position: relative;
+}
+.landing-page-top-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #fff;
+    width: 27%;
+}
+.landing-page-top-text > .empty-line {
+    border-bottom: 2px solid lime;
+    width: 35%;
+}
+.landing-page-top-text > .where-there {
+    
+}
+.landing-page-top-text > .there-a-will {
+    font-weight: 600;
+    font-size: 45px;
+}
+.landing-page-top-text > .for-those-left-behind {
+    margin-bottom: 12%;
+}
+.landing-page-top-text > .get-started-link {
+    color: #fff;
+    background-color: red;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid red;
+    border-radius: 50px;
+}
 .will-icon {
     position: absolute;
     right: 10%;
@@ -199,7 +232,7 @@
 .last-will-section > .make-your-will > img{
     border-radius: 15px;
 }
-.last-will-section > .make-your-will > button{
+.last-will-section > .make-your-will > a{
     right: 10%;
     top: 35%;
     padding: 8px 8px 5px 8px;

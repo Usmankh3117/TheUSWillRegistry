@@ -485,6 +485,9 @@
         width: 100px;
         z-index: 1;
     }
+    .landing-page-top-text {
+        width: 50% !important;
+    }
     .will-div {
         box-shadow: 0px 0px 10px #ececec;
         border-radius: 5px;
@@ -546,6 +549,10 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .landing-page-top-text {
+        width: 63% !important;
+        top: 10% !important;
+    }
     .header-right-img {
         position: absolute;
         right: 4%;
@@ -651,6 +658,10 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+    .landing-page-top-text {
+        width: 63% !important;
+        top: 10% !important;
+    }
     .header-right-img {
         position: absolute;
         right: 4%;
@@ -733,6 +744,29 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+    .last-will-section > .make-your-will > a {
+        padding: 4px 8px 5px 8px !important;
+        font-size: 11px !important;
+    }
+    .landing-page-top-text {
+        width: 63% !important;
+        top: 10% !important;
+    }
+    .landing-page-top-text > .where-there {
+        font-size: 12px !important;
+    }
+    .landing-page-top-text > .there-a-will {
+        font-weight: 600;
+        font-size: 18px !important;
+    }
+    .landing-page-top-text > .for-those-left-behind {
+        margin-bottom: 12%;
+        font-size: 10px !important;
+    }
+    .landing-page-top-text > .get-started-link {
+        padding: 6px 10px !important;
+        font-size: 12px !important; 
+    }
     .c-details {
         width: 100% !important;
         margin-top: 10% !important;
@@ -766,5 +800,26 @@
     }
     .footer-logo {
         width: 25% !important;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .last-will-section > .make-your-will > a {
+        padding: 4px 8px 5px 8px !important;
+        font-size: 11px !important;
+    }
+    .witnesa-page-form > img {
+        width: 34% !important;
+    }
+    .witnesa-page-form > span {
+        padding: 20px 11px 25px 14px !important;
+        font-size: 20px !important;
+    }
+    .self-affidevit-form > img {
+        width: 34% !important;
+    }
+    .self-affidevit-form > span {
+        padding: 21px 11px 26px 14px !important;
+        font-size: 20px !important;
     }
 }
