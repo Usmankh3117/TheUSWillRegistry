@@ -6,7 +6,23 @@
 .icondiv {
     position:relative;
 }
- 
+.started-img {
+    position: relative;
+}
+.banner-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #fff;
+    text-align: center;
+}
+.banner-text > .banner-heading > h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-text > .banner-details > p {
+    font-size: 30px;
+}
 .header-top-part {
     background-color: #033168;
     padding: 3px;
