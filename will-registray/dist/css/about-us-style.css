@@ -1,23 +1,7 @@
 .started-img > img {
     width: 100%;
 }
-.started-img {
-    position: relative;
-}
-.banner-text {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    color: #fff;
-    text-align: center;
-}
-.banner-text > .banner-heading > h1 {
-    font-size: 45px;
-    font-weight: 600;
-}
-.banner-text > .banner-details > p {
-    font-size: 30px;
-}
+
 .welcome-section {
     margin-top: 5%;
     margin-bottom: 5%;
