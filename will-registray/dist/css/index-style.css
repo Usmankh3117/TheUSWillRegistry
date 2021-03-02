@@ -104,7 +104,7 @@
     margin-top:2rem;
 }
 .will-details > .learn-more:hover {
-    background-color: red;
+    
     transform: scale(1.01); 
     text-rendering: geometricPrecision;
 }
