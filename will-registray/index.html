@@ -8,7 +8,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="./dist/css/style.css">
   <link rel="stylesheet" href="./dist/css/index-style.css">
@@ -22,7 +28,7 @@
   <title>Will Registray</title>
   <link rel="icon" href="./dist/assets/img/logo.png" type="image/icon type">
 </head>
-<body>
+<body class="body">
     <!-- header section starts -->
     <section class="header-section">
         <div class="icondiv">
@@ -92,7 +98,7 @@
                 <h2 class="where-there">WHERE THERE'S A WILL</h2>
                 <h1 class="there-a-will">THERE'S A WAY</h1>
                 <h3 class="for-those-left-behind">for Those Left Behind, to Find Peace of Mind.</h3>
-                <a href="#" class="get-started-link">Get Started</a>
+                <a href="#" class=" button1">Get Started</a>
             </div>
         </div>
     </section>
@@ -102,13 +108,29 @@
     <section class="will-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="col-lg-3 col-md-3 col-sm-6 will-div">
+                <div class="col-lg-12 col-md-12 col-sm-12 ">
+                    <div class="col-lg-3 col-md-3 col-sm-6 will-div box">
                         <div class="top-image">
                             <img src="./dist/assets/img/will-img.png" alt="">
                         </div>
                         <div class="will-icon">
-                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <i class="fas fa-search  fa-sm"></i>
+                        </div>
+                        <div class="will-details">
+                            <span class="detail-heading">Find Missing Will</span>
+                            <p class="detail-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, maxime? Ad, consequatur! Doloribus quasi natus excepturi.</p>
+                            <div class="learn-more">
+                                <a href="#" class="button2">Learn More</a>
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 will-div box">
+                        <div class="top-image">
+                            <img src="./dist/assets/img/will-img.png" alt="">
+                        </div>
+                        <div class="will-icon">
+                            <i class="fas fa-hourglass-half fa-sm"></i>
                         </div>
                         <div class="will-details">
                             <span class="detail-heading">Find Missing Will</span>
@@ -119,12 +141,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 will-div">
+                    <div class="col-lg-3 col-md-3 col-sm-6 will-div box">
                         <div class="top-image">
                             <img src="./dist/assets/img/will-img.png" alt="">
                         </div>
                         <div class="will-icon">
-                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <i class="fas fa-file-signature fa-sm"></i>
                         </div>
                         <div class="will-details">
                             <span class="detail-heading">Find Missing Will</span>
@@ -135,28 +157,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 will-div">
+                    <div class="col-lg-3 col-md-3 col-sm-6 will-div box">
                         <div class="top-image">
                             <img src="./dist/assets/img/will-img.png" alt="">
                         </div>
                         <div class="will-icon">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </div>
-                        <div class="will-details">
-                            <span class="detail-heading">Find Missing Will</span>
-                            <p class="detail-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, maxime? Ad, consequatur! Doloribus quasi natus excepturi.</p>
-                            <div class="learn-more">
-                                <a href="#">Learn More</a>
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 will-div">
-                        <div class="top-image">
-                            <img src="./dist/assets/img/will-img.png" alt="">
-                        </div>
-                        <div class="will-icon">
-                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <i class="fas fa-scroll fa-sm"></i>
                         </div>
                         <div class="will-details">
                             <span class="detail-heading">Find Missing Will</span>
@@ -180,17 +186,23 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="col-lg-2 col-md-2 col-sm-2"></div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 witnesa-page-form">
-                        <img src="./dist/assets/img/form1.png" alt="">
-                        <span>Witnesa page form</span>
+                    <div class="col-lg-4 col-md-4 col-sm-4  ">
+                        <!-- <img style="max-height: 8rem;" src="./dist/assets/img/form1.png" alt="">
+                        <span >Witnesa page form</span> -->
+
+                        <button type="button" class="btn btn4 btn-primary btn-lg active"><img  src="./dist/assets/img/form1.png" alt=""> &nbsp;Witnesa page form &nbsp;</button>
+                        
+                        
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 self-affidevit-form">
-                        <img src="./dist/assets/img/form2.png" alt="">
-                        <span>Self affidevit form</span>
+                    <div class="col-lg-4 col-md-4 col-sm-4 ">
+                        <!-- <img style="max-height: 8rem;" src="./dist/assets/img/form2.png" alt="">
+                        <span>Self affidevit form</span> -->
+                        <button type="button" class="btn btn-primary btn5 btn-lg active"><img src="./dist/assets/img/form2.png" alt="">&nbsp; Self affidevit form &nbsp;</button>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2"></div>
                 </div>
             </div>
+           
         </div>
     </section>
     <!-- forms section ends -->
@@ -299,7 +311,7 @@
         
         <div class="make-your-will">
             <img src="./dist/assets/img/make-will.png" alt="make your will">
-            <a href="#">GET STARTED</a>
+            <a    href="#">GET STARTED</a>
           </div>
     </section>
     <!-- forms section ends -->
