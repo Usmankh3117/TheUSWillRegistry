@@ -3,6 +3,9 @@
 .header-section {
     /* position:relative; */
 }
+button:focus {
+    border: none !important;
+}
 .icondiv {
     position:relative;
 }
@@ -57,6 +60,19 @@
     width: 100%;
     padding: 12px;
 }
+.submit-btn > .submit:focus {
+    border: none !important;
+    outline: unset;
+}
+
+.btn4:focus {
+    border: none !important;
+    outline: unset;
+}
+.btn5:focus {
+    border: none !important;
+    outline: unset;
+}
 .mg-top-10 {
     margin-top: 10px;
 }
@@ -93,11 +109,13 @@
 .list-group {
     display: flex;
     border-radius: .25rem;
-    margin-top: 35px !important;
-    margin-bottom: 35px !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
     padding-left: 0;
 }
-
+a:hover, a:active {
+    text-decoration: none !important;
+}
 .list-group-item {
     border: none !important;
 }
@@ -171,12 +189,12 @@
 }
 .footer {
 	background: #2a2a2c;
-	padding-top: 70px;
+	padding-top: 30px;
 	padding-bottom: 0;
 }
 
 .footer__about {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 .footer__about ul li {
@@ -222,7 +240,7 @@
 .footer__widget ul li a {
 	color: #cfe9e0;
 	font-size: 14px;
-	line-height: 35px;
+	line-height: 30px;
     white-space: nowrap;
 }
 
@@ -308,10 +326,15 @@
 
 .footer-store-logo {
     background-color: #2a2a2c !important;
+    padding: 0px 0px 0px 0px !important;
+}
+.footer-store-logo:hover {
+    transform: scale(1.1);
 }
 
-.footer-store-logo > img {
-    width: 100%;
+.footer-store-logo > a > img {
+    width: 70%;
+    border-radius: 3px;
 }
 .footer-store-logo1 {
     background-color: #2a2a2c !important;
@@ -322,7 +345,7 @@
     border-radius: 5px;
 }
 .footer-list-div {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 .pad-right-15 {
     padding-right: 15px;
@@ -345,12 +368,12 @@
 }
 
 .copyrights {
-    margin-top: 15px;
+    margin-top: 8px;
 }
 .copyrights > p {
     color: #c7e1d8;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .footer-icon {
@@ -455,6 +478,13 @@
     }
 }
 @media only screen and (min-width: 1200px) {
+
+    .btn4 {
+        float: right;
+    }   
+    .btn5{
+        padding: 0px 0px !important;
+    }
 	/* .container {
 		max-width: 1170px;
     } */
@@ -494,6 +524,25 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .btn4 {
+        float: right;
+    }   
+    .btn5{
+        padding: 0px 0px !important;
+    }
+    .top-menu {
+        font-size: 14px;
+    }
+    .info-heading {
+        font-size: 16px;
+    }
+    .Nationwide {
+        font-size: 18px;
+    }
+    .info-detail {
+        font-size: 16px;
+    }    
     .header-right-img {
         position: absolute;
         right: 2%;
@@ -565,6 +614,42 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .btn5{
+        padding: 0px 0px !important;
+    }
+    .top-menu {
+        font-size: 9px;
+    }
+    .list-group {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .will-icon {
+        top: 26% !important;
+        font-size: 16px !important;
+     }
+     .will-details > .detail-heading {
+        font-size: 12px !important;
+     }    
+     .will-details > .detail-p {
+        font-size: 9px !important;
+        line-height: 13px !important;
+    }
+    .will-details > .learn-more > a {
+        font-size: 9px !important;
+    } 
+    .btn4 {
+        float: right;
+    }   
+    .btn4, .btn5 {
+        font-size: 11px !important;
+    }
+    .button1 {
+        font-size: 14px !important;
+    }
+    .footer__widget ul li a {
+        line-height: 21px !important;  
+    }
     .landing-page-top-text {
         width: 63% !important;
         top: 10% !important;
@@ -674,6 +759,31 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+    .button1 {
+        font-size: 11px !important;
+    }
+    .will-icon {
+        right: 5% !important;
+        top: 53% !important;
+    }   
+    .btn4 {
+        margin-bottom: 15px !important;
+    } 
+    .btn5 {
+        padding: 0px 14px 0px 0px !important;
+    }
+    .footer__widget h5 {
+        margin-bottom: 0px !important;
+    }
+    .footer__widget ul {
+        margin-top: 0% !important;
+    }
+    .footer__about__logo {
+        margin-top: 15px !important;
+    }
+    .fa-scroll {
+        font-size: 20px !important;
+    }
     .landing-page-top-text {
         width: 63% !important;
         top: 10% !important;
