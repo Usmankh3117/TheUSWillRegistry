@@ -3,6 +3,9 @@
 .header-section {
     /* position:relative; */
 }
+button:focus {
+    border: none !important;
+}
 .icondiv {
     position:relative;
 }
@@ -58,6 +61,15 @@
     padding: 12px;
 }
 .submit-btn > .submit:focus {
+    border: none !important;
+    outline: unset;
+}
+
+.btn4:focus {
+    border: none !important;
+    outline: unset;
+}
+.btn5:focus {
     border: none !important;
     outline: unset;
 }
@@ -314,9 +326,13 @@ a:hover, a:active {
 
 .footer-store-logo {
     background-color: #2a2a2c !important;
+    padding: 0px 0px 0px 0px !important;
+}
+.footer-store-logo:hover {
+    transform: scale(1.1);
 }
 
-.footer-store-logo > img {
+.footer-store-logo > a > img {
     width: 70%;
     border-radius: 3px;
 }
@@ -462,6 +478,10 @@ a:hover, a:active {
     }
 }
 @media only screen and (min-width: 1200px) {
+
+    .btn4 {
+        float: right;
+    }   
     .btn5{
         padding: 0px 0px !important;
     }
@@ -504,6 +524,10 @@ a:hover, a:active {
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .btn4 {
+        float: right;
+    }   
     .btn5{
         padding: 0px 0px !important;
     }
@@ -613,7 +637,10 @@ a:hover, a:active {
     }
     .will-details > .learn-more > a {
         font-size: 9px !important;
-    }    
+    } 
+    .btn4 {
+        float: right;
+    }   
     .btn4, .btn5 {
         font-size: 11px !important;
     }
