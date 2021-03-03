@@ -583,7 +583,7 @@ a:hover, a:active {
     .last-will-section > .make-your-will {
         position: absolute;
         top: 95%;
-        right: 17% !important;
+        right: 8% !important;
     }
     .last-section > .make-will {
         position: absolute;
@@ -609,11 +609,29 @@ a:hover, a:active {
     .mg-top-bottom-extra-verify {
         margin-top: 158px !important;
     }
+    .will-icon1 {
+        right: 10% !important;
+        top: 26% !important;
+        padding: 0px 12px !important;
+    }
+    .will-icon1 > img {
+        width: 20px !important;
+        height: 20px !important;
+    }
 }
 
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .will-icon1 {
+        right: 10% !important;
+        top: 22% !important;
+        padding: 0px 12px !important;
+    }
+    .will-icon1 > img {
+        width: 20px !important;
+        height: 20px !important;
+    }
     .btn5{
         padding: 0px 0px !important;
     }
@@ -817,6 +835,16 @@ a:hover, a:active {
         position: absolute;
         top: 98% !important;
         right: 0% !important;
+        width: 100% !important;
+    }
+    .last-will-section > .make-your-will > .left-div > .heading {
+        font-size: 18px !important;
+        margin-top: 7px !important;
+        margin-bottom: -10px;
+    }
+    .last-will-section > .make-your-will > .left-div > .para {
+        font-size: 16px !important;
+        margin-bottom: 4px !important;
     }
     .last-section > .make-will > img {
         width: 100%;
