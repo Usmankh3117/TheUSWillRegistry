@@ -81,6 +81,11 @@
 	padding-bottom: 0px;
 	margin: 0px 0px 0px 0px;
 }
+.form-control:focus {
+    border: 1px solid #0d3460;
+    outline: unset !important;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+}
 .login-form > form > .input-group1 {
 	font-size: 16px;
 	margin-top: 15px;
@@ -108,7 +113,7 @@
 .login-left-inner-div1 {
     position: absolute;
     left: 10%;
-    top: 40%;
+    top: 45%;
     color: #fff;
     line-height: 16px;
     text-align: center;
