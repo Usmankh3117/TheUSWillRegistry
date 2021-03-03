@@ -341,7 +341,7 @@ a:hover, a:active {
 }
 
 .footer-store-logo1 > img {
-    width: 50%;
+    width: 70%;
     border-radius: 5px;
 }
 .footer-list-div {
@@ -424,7 +424,10 @@ a:hover, a:active {
 }
 .footer1 {
     background: #2a2a2c;
-    padding: 10px;
+    padding: 0px;
+}
+.footer-store-logo1:hover {
+    transform: scale(1.1);
 }
 .list-group1 {
     display: flex;
@@ -524,7 +527,19 @@ a:hover, a:active {
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
+    .form-heading {
+        margin-top: 15% !important;
+    }
+    .submit-btn {
+        margin-top: 15px !important;
+    }
+    .or-outer-div {
+        margin: 10px 0px !important;
+    }
+    .login-left-inner-div1 {
+        left: 5% !important;
+        top: 44% !important;
+    }
     .btn4 {
         float: right;
     }   
@@ -738,22 +753,55 @@ a:hover, a:active {
     .mg-top-bottom-extra-reset {
         margin-top: 12px !important;
     }
+    .form-heading {
+        margin-top: 10% !important;
+    }
     .form-heading > h2 {
-        font-size: 30px !important;   
+        font-size: 24px !important;   
     }
     .form-heading > p {
         font-size: 22px !important;   
     }
     .login-form > form > .input-group > .form-control {
-        font-size: 18px !important;
+        font-size: 16px !important;
         margin:0px !important;
     }
     .login-form > form > .input-group {
        margin-top: 10px;
     }
     .login-form > form > .input-group > span {
+        font-size: 15px !important;
+    padding: 5px 15px !important;   
+    }
+    .login-form > form > .input-group1 > label {
+        font-size: 11px !important;
+    }
+    .login-form > form > .input-group1 > a {
+        font-size: 11px !important;
+        margin-top: 7px !important;
+    }
+    .submit-btn {
+        margin-top: 9px !important;
+    }
+    .create-one-account {
+        font-size: 11px !important;
+        margin-top: 6px !important;
+    }
+    .or-outer-div {
+        margin: 0px 0px !important;
+    }
+    .or-div {
+        margin-left: 42% !important;
+        margin-bottom: -5% !important;
+    }
+    .login-left-inner-div1 {
+        left: 6% !important;
+    }
+    .login-left-inner-div1 > .heading1 {
         font-size: 20px !important;
-        padding: 10px 22px !important;
+    }
+    .login-left-inner-div1 > .para1 {
+        font-size: 12px !important;
     }
     .mg-top-top-extra-verify {
         margin-top: 100px !important;
@@ -777,6 +825,50 @@ a:hover, a:active {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+    .form-heading {
+        margin-top: 2% !important;
+    }
+    .login-form > form > .input-group > .form-control {
+        font-size: 16px !important;
+        margin:0px !important;
+    }
+    .login-form > form > .input-group {
+       margin-top: 2% !important;
+    }
+    .login-form > form > .input-group > span {
+        font-size: 15px !important;
+        padding: 5px 15px !important;   
+    }
+    .login-form > form > .input-group1 > label {
+        font-size: 11px !important;
+    }
+    .login-form > form > .input-group1 > a {
+        font-size: 11px !important;
+        margin-top: 7px !important;
+    }
+    .submit-btn {
+        margin-top: 9px !important;
+    }
+    .create-one-account {
+        font-size: 11px !important;
+        margin-top: 6px !important;
+    }
+    .or-outer-div {
+        margin: 0px 0px !important;
+    }
+    .or-div {
+        margin-left: 42% !important;
+        margin-bottom: -5% !important;
+    }
+    .login-left-inner-div1 {
+        left: 6% !important;
+    }
+    .login-left-inner-div1 > .heading1 {
+        font-size: 100% !important;
+    }
+    .login-left-inner-div1 > .para1 {
+        font-size: 100% !important;
+    }
     .button1 {
         font-size: 11px !important;
     }
@@ -898,6 +990,100 @@ a:hover, a:active {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+    .login-form > form > .input-group > .form-control {
+        font-size: 13px !important;
+        margin: 0px !important;
+        padding: 0px 0px 0px 6px !important;
+    }
+    .form-control {
+        height: 23px !important;
+    }
+    .login-form > form > .input-group {
+       margin-top: 10px;
+    }
+    .login-form > form > .input-group > span {
+        font-size: 13px !important;
+        padding: 2px 6px !important; 
+    }
+    .login-form > form > .input-group1 > label {
+        font-size: 7px !important;
+    }
+    .rememberme {
+        height: 9px !important;
+    }
+    .submit-btn > .submit {
+        font-size: 7px !important;
+        padding: 1px 9px !important;
+    }
+    .login-form > form > .input-group1 > a {
+        font-size: 7px !important;
+        margin-top: 10px !important;
+    }
+    .login-form > form > .input-group1 {
+        font-size: 8px !important;
+        margin-top: 2px !important;
+    }    
+    .submit-btn {
+        margin-top: 0px !important;
+    }
+    .create-one-account {
+        font-size: 7px !important;
+        margin-top: 1px !important;
+    }
+    .mg-top-15-si {
+        margin-top:0px !important;
+    }
+    .or {
+        font-size: 9px !important;
+    }
+    .bottom-icons {
+        margin-left: 3% !important;
+        font-size: 9px !important;
+        padding: 4px 5px !important;
+    }
+    .footer-store-logo1 > img {
+        width: 42% !important;
+    }
+    .footer-form {
+        margin-top: 8px !important;
+    }
+    .footer-form > form > input {
+        font-size: 12px !important;
+        padding: 8px !important;
+    }
+    .copyrights > p {
+        font-size: 5px !important;
+    }
+    .footer-icon-signin1 > span {
+        font-size: 12px !important;
+    }
+    .login-social-media-icons {
+        margin-top: 4% !important;
+    }
+    .or-outer-div {
+        margin: 0px 0px !important;
+    }
+    .or-div {
+        margin-left: 42% !important;
+        margin-bottom: -5% !important;
+    }
+    .login-left-inner-div1 {
+        left: 6% !important;
+        top: 40% !important;
+        line-height: 4px !important;
+    }
+    .heading-section > .heading {
+        font-size: 16px !important;
+    }
+    .form-heading > h2 {
+        font-size: 12px !important;
+    }
+    .login-left-inner-div1 > .heading1 {
+        font-size: 9px !important;
+    }
+    .login-left-inner-div1 > .para1 {
+        font-size: 7px !important;
+    }
     .last-will-section > .make-your-will > a {
         padding: 4px 8px 5px 8px !important;
         font-size: 11px !important;
@@ -958,6 +1144,74 @@ a:hover, a:active {
 }
 
 @media only screen and (max-width: 376px) {
+    .login-form > form > .input-group > .form-control {
+        font-size: 10px !important;
+        height: 12px !important;
+        margin: 0px !important;
+        padding: 7px 0px 0px 1px !important;
+    }
+    .form-control {
+        height: 23px !important;
+    }
+    .login-form > form > .input-group {
+       margin-top: 10px;
+    }
+    .login-form > form > .input-group > span {
+        font-size: 13px !important;
+        padding: 2px 6px !important; 
+    }
+    .login-form > form > .input-group1 > label {
+        font-size: 5px !important;
+    }
+    .rememberme {
+        height: 7px !important;
+    }
+    .submit-btn > .submit {
+        font-size: 7px !important;
+        padding: 0px 7px !important;
+    }
+    .login-form > form > .input-group1 > a {
+        font-size: 5px !important;
+        margin-top: 5px !important;
+    }
+    .login-form > form > .input-group1 {
+        font-size: 6px !important;
+        margin-top: 0px !important;
+    }    
+    .submit-btn {
+        margin-top: 0px !important;
+    }
+    .create-one-account {
+        font-size: 6px !important;
+        margin-top: 1px !important;
+    }
+    .mg-top-15-si {
+        margin-top:0px !important;
+    }
+    .or {
+        font-size: 9px !important;
+    }
+    .bottom-icons {
+        margin-left: 3% !important;
+        font-size: 9px !important;
+        padding: 4px 6px !important;
+    }
+    .footer-store-logo1 > img {
+        width: 42% !important;
+    }
+    .footer-form {
+        margin-top: 8px !important;
+    }
+    .footer-form > form > input {
+        font-size: 12px !important;
+        padding: 8px !important;
+    }
+    .copyrights > p {
+        font-size: 5px !important;
+    }
+    .footer-icon-signin1 > span {
+        font-size: 12px !important;
+    }
     .last-will-section > .make-your-will > a {
         padding: 4px 8px 5px 8px !important;
         font-size: 11px !important;
