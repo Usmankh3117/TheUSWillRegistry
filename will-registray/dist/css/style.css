@@ -1,4 +1,9 @@
 
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #fefefe !important;
+}
+
 
 .header-section {
     /* position:relative; */
@@ -231,6 +236,7 @@ a:hover, a:active {
 	width: 50%;
     float: left;
     margin-top: 10%;
+    line-height: 38px;
 }
 
 .footer__widget ul li {
@@ -247,7 +253,8 @@ a:hover, a:active {
 .footer__widget p {
 	font-size: 14px;
 	color: #cfe9e0;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+    line-height: 32px;
 }
 
 .footer__widget form {
@@ -333,7 +340,7 @@ a:hover, a:active {
 }
 
 .footer-store-logo > a > img {
-    width: 70%;
+    width: 80%;
     border-radius: 3px;
 }
 .footer-store-logo1 {
@@ -368,12 +375,12 @@ a:hover, a:active {
 }
 
 .copyrights {
-    margin-top: 8px;
+    margin-top: 15px;
 }
 .copyrights > p {
     color: #c7e1d8;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .footer-icon {
@@ -448,6 +455,9 @@ a:hover, a:active {
 .margin-top-10 {
     margin-top: 10%;
 }
+.margin-top-6 {
+    margin-top: 6%;
+}
 
 .bold {
     font-weight: bold;
@@ -483,7 +493,7 @@ a:hover, a:active {
 @media only screen and (min-width: 1200px) {
 
     .btn4 {
-        float: right;
+        /* float: right; */
     }   
     .btn5{
         padding: 0px 0px !important;
